@@ -1,0 +1,65 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+body{
+    background-color: beige;
+}
+
+.header-image {
+  margin-top: 80px;
+}
+
+.header-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: serif;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.kpi-card {
+  color: white;
+  background-color: royalblue;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.kpi-card.kpi-1 {
+  border-top: 4px solid blue;
+}
+
+.kpi-card.kpi-2 {
+  border-top: 4px solid white;
+}
+
+.kpi-card.kpi-3 {
+  border-top: 4px solid red;
+}
+
+.kpi-card:hover {
+  transform: translateY(-5px);
+}
