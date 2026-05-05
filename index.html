@@ -91,7 +91,9 @@
             </div>
         </div>
         <div class="image">
-            <img src="surf.jpg" alt="image avec plusieurs personnes faisant du surf" height="500" width="1500">
+            <div class="zoom-image">
+                <img src="surf.jpg" alt="image avec plusieurs personnes faisant du surf" height="500" width="1500">
+            </div>
         </div>
         <h2>Nos services</h2>
         <ul>
@@ -102,9 +104,35 @@
             <li><span class="bold">Surf étudiant</span>, leçons en petits groupes à tarifs réduits pour
                 les étudiants.</li>
             <li><span class="bold">Surf Event privée</span>, pour les groupes d'amis, qu'importe votre âge.</li>
-            <li><span class="bold">Session unitaire individuelle</span>, rejoignez un petit groupe pour vous
+            <li><span class="bold">Session individuelle</span>, rejoignez un petit groupe pour vous
                 initier au surf.</li>
         </ul>
+        <div class="image">
+            <div class="zoom-image">
+                <img src="surf2.jpg" alt="image avec plusieurs personnes faisant du surf" height="500" width="1500">
+            </div>
+        </div>
+        <h2>Nous contacter</h2>
+        <form class="formulaire" action="#" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nom&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" required placeholder="Votre nom complet" />
+                </li>
+                <li>
+                    <label for="mail">E-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail" required placeholder="exemple@email.com" />
+                </li>
+                <li>
+                    <label for="msg">Message&nbsp;:</label>
+                    <textarea id="msg" name="user_message" required
+                        placeholder="Comment pouvons-nous vous aider ?"></textarea>
+                </li>
+            </ul>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>
 
     </main>
 
