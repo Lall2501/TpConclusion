@@ -5,6 +5,11 @@
   --bg-color: beige;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 /* typos mobile first */
 body {
   background-color: var(--bg-color);
@@ -195,7 +200,7 @@ footer {
   background-color: var(--main-color);
   width: 100%;
   height: auto;
-  padding: 40px 0;
+  padding: 20px 0;
   color: white;
 }
 
@@ -238,6 +243,8 @@ footer a {
 
   footer .image-flex {
     align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
   }
 }
 
