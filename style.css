@@ -16,6 +16,14 @@ body {
   font-family: serif;
 }
 
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
 h2 {
   font-weight: bold;
   text-align: center;
